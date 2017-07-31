@@ -1,0 +1,85 @@
+
+h1{
+    margin:5% 10% 0 10%;
+    border: 5px solid greenyellow;
+    margin-top:10%;
+    font-size: 9.5em;
+    etter-spacing:2px;
+    font-weight: 100;
+    color: greenyellow;
+   }
+
+h3{
+    width:45%;
+    padding:10px;
+    font-size: 4em;
+    font-weight: 300;
+    color: greenyellow;
+    background-color: rgba(0, 100, 200, 0.5);
+}
+
+h2{
+    width:45%;
+    margin-bottom:30px;
+    padding-left:20px;
+    font-size: 3em;
+    font-weight: 200;
+    color: cadetblue;
+    /*background-color: rgba(50, 10, 0, 0.5);*/
+
+}
+
+#im1{
+    position: relative;
+    margin:-1px 10% 0 10%;
+    padding:10%;
+     /*background-image: url("http://www.stoves-france.com/wp-content/uploads/8.-Astuces-pour-reconna%C3%AEtre-les-fruits-m%C3%BBrs-e1438157989509.jpg");*/
+     background-image: url("fruit.jpg");
+    background-size:cover;
+  }
+.container_zone1, .container_zone2{
+    /*position: relative;*/
+    z-index:1;
+
+
+    margin:-1px 10% 0 10%;
+    padding:10%;
+    border: solid 3px greenyellow;
+    opacity:1;
+
+}
+
+input{
+    margin:20px 0 20px 0;
+    width: 90%;
+    height:90px;
+    border:none;
+    font-size: 3em;
+    padding:20px;
+    color: orangered;
+    background-color: greenyellow;
+}
+
+::placeholder {
+    /*font-size: 3em;*/
+    font-weight: bold;
+    color: white;
+}
+button {
+    border: 5px solid greenyellow;
+    background-color: orangered;
+    width: 200px;
+    height: 50px;
+    font-size:1.3em;
+    letter-spacing:2px;
+    font-weight: bold;
+    color: black;
+}
+
+app-child{
+    /*padding:100px;*/
+   font-size: 1.5em;
+    color: cadetblue;
+}
+
+
